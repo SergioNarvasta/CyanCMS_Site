@@ -4,14 +4,14 @@
     "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj": {
+    "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
-        "projectName": "Coworking.Api.DataAccess",
-        "projectPath": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
+        "projectUniqueName": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj",
+        "projectName": "Coworking.Api.DataAccess.Contracts",
+        "projectPath": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\obj\\",
+        "outputPath": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,70 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
+        "projectName": "Coworking.Api.DataAccess",
+        "projectPath": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\Coworking.Api.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj": {
+                "projectPath": "D:\\PROYECTOS\\CoWorking\\Coworking.Api.DataAccess.Contracts\\Coworking.Api.DataAccess.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
