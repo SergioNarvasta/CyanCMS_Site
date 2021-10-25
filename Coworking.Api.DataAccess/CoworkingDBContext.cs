@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Coworking.Api.DataAccess
 {
-    class CoworkingDBContext : DbContext, Coworking2DBContext
+    public class CoworkingDBContext : DbContext, CoworkingDBContextContracts
     {
         public CoworkingDBContext()
         {

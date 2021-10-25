@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Coworking.Api.DataAccess.Contracts
 {
-    public interface Coworking2DBContext
+    public interface CoworkingDBContextContracts
     {
     }
 }
