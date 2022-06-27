@@ -1,0 +1,11 @@
+D:\WebAplicacion\WebAplicacion\HDLIbreriaSUNAT\bin\Release\HDLIbreriaSUNAT.dll
+D:\WebAplicacion\WebAplicacion\HDLIbreriaSUNAT\bin\Release\HDLIbreriaSUNAT.pdb
+D:\WebAplicacion\WebAplicacion\HDLIbreriaSUNAT\obj\Release\HDLIbreriaSUNAT.csprojAssemblyReference.cache
+D:\WebAplicacion\WebAplicacion\HDLIbreriaSUNAT\obj\Release\HDLIbreriaSUNAT.csproj.CoreCompileInputs.cache
+D:\WebAplicacion\WebAplicacion\HDLIbreriaSUNAT\obj\Release\HDLIbreriaSUNAT.dll
+D:\WebAplicacion\WebAplicacion\HDLIbreriaSUNAT\obj\Release\HDLIbreriaSUNAT.pdb
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\HDLIbreriaSUNAT\obj\Release\HDLIbreriaSUNAT.csproj.CoreCompileInputs.cache
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\HDLIbreriaSUNAT\obj\Release\HDLIbreriaSUNAT.dll
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\HDLIbreriaSUNAT\obj\Release\HDLIbreriaSUNAT.pdb
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\HDLIbreriaSUNAT\bin\Release\HDLIbreriaSUNAT.dll
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\HDLIbreriaSUNAT\bin\Release\HDLIbreriaSUNAT.pdb

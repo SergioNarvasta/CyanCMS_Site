@@ -1,0 +1,38 @@
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.AssemblyReference.cache
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.CoreCompileInputs.cache
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.exe.config
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.exe
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.pdb
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.exe
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.pdb
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\bin\Debug\RestSharp.dll
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\bin\Debug\RestSharp.xml
+D:\WebAplicacion\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.CopyComplete
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.exe.config
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.exe
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.pdb
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_CONFORMIDAD_WS.dll
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\RestSharp.dll
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_CONFORMIDAD_WS.pdb
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\RestSharp.xml
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.AssemblyReference.cache
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.CoreCompileInputs.cache
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.CopyComplete
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.exe
+D:\AppGCA\NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.pdb
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.AssemblyReference.cache
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.CoreCompileInputs.cache
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.exe.config
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.exe
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\ConsolaDesarrollo.pdb
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_CONFORMIDAD_WS.dll
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_RVIE_WS.dll
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\RestSharp.dll
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_CONFORMIDAD_WS.pdb
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_CONFORMIDAD_WS.dll.config
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_RVIE_WS.pdb
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\HD_RVIE_WS.dll.config
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\bin\Debug\RestSharp.xml
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.csproj.CopyComplete
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.exe
+Z:\2_Desarrollo\4.- Proyectos NET\ProyectoLibreriaHDSunat\WebAplicacion\ConsolaDesarrollo\obj\Debug\ConsolaDesarrollo.pdb

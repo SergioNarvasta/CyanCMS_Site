@@ -1,0 +1,16 @@
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\ConsolaDesarrollo.exe.config
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\ConsolaDesarrollo.exe
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\ConsolaDesarrollo.pdb
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\HD_CONFORMIDAD_WS.dll
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\HD_RVIE_WS.dll
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\RestSharp.dll
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\HD_CONFORMIDAD_WS.pdb
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\HD_CONFORMIDAD_WS.dll.config
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\HD_RVIE_WS.pdb
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\HD_RVIE_WS.dll.config
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\bin\Release\RestSharp.xml
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\obj\Release\ConsolaDesarrollo.csproj.AssemblyReference.cache
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\obj\Release\ConsolaDesarrollo.csproj.CoreCompileInputs.cache
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\obj\Release\ConsolaDesarrollo.csproj.CopyComplete
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\obj\Release\ConsolaDesarrollo.exe
+D:\PROYECTOS .NET\4.-PROYECTOS DLL\WebAplicacion\ConsolaDesarrollo\obj\Release\ConsolaDesarrollo.pdb
