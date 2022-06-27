@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "\\Coworking.Api.Aplication.Contracts\\bin",
+    "\\Coworking.Api.Aplication.Contracts\\obj",
+    "\\Coworking.Api.DataAccess",
+    "\\Coworking.Api.DataAccess.Contracts",
+    "\\Coworking.Api.DataAccess\\obj",
+    "\\CoworkingApiBusiness\\obj",
+    "\\Coworkinr"
+  ],
+  "PreviewInSolutionExplorer": false
+}

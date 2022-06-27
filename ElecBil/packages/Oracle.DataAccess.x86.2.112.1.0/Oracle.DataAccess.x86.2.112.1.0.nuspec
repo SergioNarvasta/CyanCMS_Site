@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Oracle.DataAccess.x86</id>
+    <version>2.112.1.0</version>
+    <title>Oracle Data Provier for .NET (ODP.NET) x86</title>
+    <authors>Oracle</authors>
+    <owners>Oracle</owners>
+    <licenseUrl>http://www.oracle.com/technetwork/licenses/odt-lic-152011.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This NuGet package contains Oracle.DataAccess.dll (x86) needed to compile a project that uses Oracle's ODP.NET Library. Oracle will still need to be installed on the production or development machine in order to connect to Oracle (those libraries are greater than 100MB in size, so it didn't make sense to include them in a NuGet package), but this package will at least allow the project to be successfully built (i.e. if you're using a CI server).</description>
+    <summary />
+    <copyright>Oracle</copyright>
+    <language>en-US</language>
+    <tags>Oracle DataAccess ODP NET 2.122.1.0</tags>
+  </metadata>
+</package>

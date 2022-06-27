@@ -1,0 +1,5 @@
+D:\HelpDesk_SAC\Portal_HDFacturacion\ConsultaDTE\ConsultaDTE\bin\ConsultaDTE.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\ConsultaDTE\ConsultaDTE\bin\ConsultaDTE.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\ConsultaDTE\ConsultaDTE\obj\Debug\ConsultaDTE.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\ConsultaDTE\ConsultaDTE\obj\Debug\ConsultaDTE.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\ConsultaDTE\ConsultaDTE\obj\Debug\ConsultaDTE.csprojResolveAssemblyReference.cache

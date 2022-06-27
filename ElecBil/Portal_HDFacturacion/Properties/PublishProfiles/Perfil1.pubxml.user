@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\DevApp\NET\IIS_AppNET\HDFacturacion_DTE</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/HDFacturacionDTE.Base.dll">
+      <publishTime>02/26/2018 00:53:56</publishTime>
+    </File>
+    <File Include="bin/HDFacturacionDTE.Business.dll">
+      <publishTime>02/26/2018 00:53:58</publishTime>
+    </File>
+    <File Include="bin/HDFacturacionDTE.Common.dll">
+      <publishTime>02/26/2018 00:53:56</publishTime>
+    </File>
+    <File Include="bin/HDFacturacionDTE.Configuracion.dll">
+      <publishTime>02/26/2018 00:53:56</publishTime>
+    </File>
+    <File Include="bin/HDFacturacionDTE.Data.dll">
+      <publishTime>02/26/2018 00:53:57</publishTime>
+    </File>
+    <File Include="bin/HDFacturacionDTE.Entity.dll">
+      <publishTime>02/26/2018 00:53:56</publishTime>
+    </File>
+    <File Include="bin/HDFacturacionDTE.IData.dll">
+      <publishTime>02/26/2018 00:53:57</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>11/28/2016 17:42:54</publishTime>
+    </File>
+    <File Include="bin/Portal_HDFacturacion.dll">
+      <publishTime>02/26/2018 00:56:17</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/21/2018 14:02:00</publishTime>
+    </File>
+    <File Include="images/calendar_1.jpg">
+      <publishTime>02/21/2018 16:44:14</publishTime>
+    </File>
+    <File Include="images/logohelpdesk.jpg">
+      <publishTime>02/21/2018 18:59:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>02/21/2018 14:02:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>02/21/2018 14:02:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>02/21/2018 14:02:00</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>02/22/2018 13:14:21</publishTime>
+    </File>
+    <File Include="verFacturasElectronicasHD.aspx">
+      <publishTime>02/26/2018 00:49:44</publishTime>
+    </File>
+    <File Include="verMensajeError.aspx">
+      <publishTime>02/23/2018 14:41:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/26/2018 00:56:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

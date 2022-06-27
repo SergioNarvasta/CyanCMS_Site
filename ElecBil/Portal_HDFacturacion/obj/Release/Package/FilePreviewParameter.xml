@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="HelpDesk_Ver_DTE" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^G:\\DevApp\\NET\\Portal_HDFacturacion\\Portal_HDFacturacion\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^G:\\DevApp\\NET\\Portal_HDFacturacion\\Portal_HDFacturacion\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." value="" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="G:\\DevApp\\NET\\Portal_HDFacturacion\\Portal_HDFacturacion\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+</parameters>

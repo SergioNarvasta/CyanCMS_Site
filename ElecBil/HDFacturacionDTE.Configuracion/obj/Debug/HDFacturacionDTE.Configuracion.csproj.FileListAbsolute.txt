@@ -1,0 +1,50 @@
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csprojResolveAssemblyReference.cache
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.pdb
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.dll
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.pdb
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.dll
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.dll
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.dll
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.pdb
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.pdb
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.pdb
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csprojAssemblyReference.cache
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csproj.CoreCompileInputs.cache
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csproj.CopyComplete
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.dll
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.pdb
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.dll
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.pdb
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.dll
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.dll
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.dll
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.pdb
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.pdb
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.pdb
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csprojAssemblyReference.cache
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csproj.CoreCompileInputs.cache
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csproj.CopyComplete
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.dll
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.pdb
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.dll
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Configuracion.pdb
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.dll
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.dll
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.dll
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Base.pdb
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Common.pdb
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\bin\Debug\HDFacturacionDTE.Entity.pdb
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csprojAssemblyReference.cache
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csproj.CoreCompileInputs.cache
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.csproj.CopyComplete
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.dll
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Configuracion\obj\Debug\HDFacturacionDTE.Configuracion.pdb

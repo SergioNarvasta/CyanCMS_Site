@@ -1,0 +1,22 @@
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.pdb
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.dll
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.pdb
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.csprojAssemblyReference.cache
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.csproj.CoreCompileInputs.cache
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.dll
+D:\DevApp\NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.pdb
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.dll
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.pdb
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.csprojAssemblyReference.cache
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.csproj.CoreCompileInputs.cache
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.dll
+W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.pdb
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.dll
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Base\bin\Debug\HDFacturacionDTE.Base.pdb
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.csprojAssemblyReference.cache
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.csproj.CoreCompileInputs.cache
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.dll
+G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Base\obj\Debug\HDFacturacionDTE.Base.pdb

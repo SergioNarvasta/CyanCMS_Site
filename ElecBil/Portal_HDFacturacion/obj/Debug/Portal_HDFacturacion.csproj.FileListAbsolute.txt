@@ -1,0 +1,68 @@
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.csprojResolveAssemblyReference.cache
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Business.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Common.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Entity.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Data.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Configuracion.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Base.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\Oracle.ManagedDataAccess.dll
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Business.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Common.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Entity.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Data.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Configuracion.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.pdb
+D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Base.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.dll.config
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Business.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Common.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Entity.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Data.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Configuracion.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Base.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Oracle.ManagedDataAccess.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Business.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Common.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Entity.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Data.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Configuracion.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.dll.config
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Base.pdb
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.csprojAssemblyReference.cache
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.csproj.CoreCompileInputs.cache
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.csproj.CopyComplete
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.dll
+D:\DevApp\NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.dll.config
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Portal_HDFacturacion.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Business.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Common.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Entity.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Data.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Configuracion.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Base.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\Oracle.ManagedDataAccess.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Business.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Common.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Entity.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Data.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Configuracion.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.IData.dll.config
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\bin\HDFacturacionDTE.Base.pdb
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.csprojAssemblyReference.cache
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.csproj.CoreCompileInputs.cache
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.csproj.CopyComplete
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.dll
+W:\Proyectos NET\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Portal_HDFacturacion.pdb

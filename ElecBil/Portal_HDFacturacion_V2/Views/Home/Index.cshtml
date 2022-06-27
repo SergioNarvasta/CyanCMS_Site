@@ -1,0 +1,416 @@
+﻿@model Portal_HDFacturacion_V2.Models.TipoDocumentoViewModel
+@using HDFacturacionDTE.Business
+@using HDFacturacionDTE.Entity
+
+
+@{
+    BLTipoDocumento oBLTipoDocumento = null;
+    List<BETipoDocumento> lstTiposDocumentos = null;
+
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            CONSULTA DE VALIDEZ DE COMPROBANTE DE PAGO ELECTRÓNICO
+            <div class="panel-controls">
+            </div>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal">
+                @*<div class="form-group">
+                        <label class="col-sm-2 control-label">Email Adddress</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" placeholder="Your email address">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" placeholder="Your password">
+                        </div>
+                    </div>*@
+                <div class="row clearfix">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-sm-6 control-label">RUC Emisor:</label>
+                            <div class="col-sm-6">
+                                <input type="text" id="txtNumeroRuc" class="form-control input-sm" maxlength="11" value="20518000951">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            @{
+
+                                oBLTipoDocumento = new BLTipoDocumento();
+
+                                lstTiposDocumentos = oBLTipoDocumento.getListaDocumentos();
+                                SelectList listaOficinas = new SelectList(lstTiposDocumentos, "SID_TIPODOCUMENTO", "sDESC_TIPODOCUMENTO");
+                            }
+
+                            <label class="col-xs-12 col-sm-5 control-label">Tipo Doc.:</label>
+                            <div class="col-xs-12 col-sm-7">
+                                @*<select id="txtCodigoComprobante" class="form-control input-sm  selectpicker show-tick" data-live-search="true">
+                        <option value="">Seleccione...</option>
+                        <option value="BVE">BOLETA DE VENTA ELECTRONICA</option>
+                        <option value="FAC">FACTURA ELECTRONICA</option>
+                        <option value="GRE">GUIA DE REMISION ELECTRONICA</option>
+                        <option value="NCR">NOTA DE CREDITO ELECTRONICA</option>
+                        <option value="NDB">NOTA DE DEBITO ELECTRONICA</option>form-control
+                        <option value="RET">COMPROBANTE RETENCION ELETRONICO</option> input-sm
+                    </select>*@
+
+                                @Html.DropDownListFor(d => d.IdTipoDocumento, listaOficinas, "Seleccione...", new { @class = "selectpicker form-control input-sm show-tick", @data_live_search = "true" })
+
+                            </div>
+                            @*@Html.DropDownList("sID_TIPODOCUMENTO", ViewBag.Oficinas as List<SelectListItem>, "         Seleccione...       ", htmlAttributes: new { @class = "form-control" })*@
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-6 control-label">Serie Doc.:</label>
+                            <div class="col-xs-12 col-sm-6">
+                                <input type="text" id="txtNumeroSerie" class="form-control input-sm" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-6 control-label">Nro Doc.:</label>
+                            <div class="col-xs-12 col-sm-6">
+                                <input type="text" id="txtNumero" class="form-control input-sm" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-5 control-label">Fecha Emisión:</label>
+                            <div class="col-xs-12 col-sm-7">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                    <input type="text" id="txtFechaEmision" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy','placeholder':'__/__/____'" placeholder="Ex: 05/11/2016">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-6 control-label">Monto Factura:</label>
+                            <div class="col-xs-12 col-sm-6">
+                                <input type="text" id="txtMonto" class="form-control input-sm" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix text-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <a id="btnVerConsulta" class="m-w-150 btn btn-rounded btn-success">
+                            <span class="glyphicon glyphicon-search"></span>
+                            Ver Factura
+                        </a>
+                        <a onclick="downloadXML();return false;" class="m-w-150 btn btn-rounded btn-primary">
+                            <span class="fa fa-download"></span>
+                            Exportar XML
+                        </a>
+                        <a id="btnDescargarPDF" onclick="downloadPDF();return false;" class="m-w-150 btn btn-rounded btn-info">
+                            <span class="fa fa-download"></span>
+                            Exportar PDF
+                        </a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<p id="IdLoading"></p>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="panel panel-info" id="panelResultado">
+        <div class="panel-heading">
+            Resultado de la Consulta
+            <div class="panel-controls">
+            </div>
+        </div>
+        <div class="panel-body">
+            <div id="MostrarPDF">
+            </div>
+            <iframe id="idpdf" style='width:100%; height:700px;' frameborder='0'></iframe>
+            @*<iframe src="http://localhost:50664/DTE/20518000951/20518000951-01-F001-1.PDF" width="100%" height="400" style="border: none;" id="iframePDF"></iframe>*@
+
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script>
+        function IniciaCarga() {
+            $('#contenido').waitMe({
+                effect: 'ios',
+                text: 'Espere un momento...',
+                bg: 'rgba(119, 193, 66, 0.7)',
+                color: '#107561',
+                maxSize: '',
+                waitTime: -1,
+                textPos: 'vertical',
+                fontSize: '',
+                source: '',
+                onClose: function () { }
+            });
+        }
+        function TerminarCarga() {
+            $('#contenido').waitMe("hide");
+        }
+        $("#panelResultado").hide();
+        //=========================== Descargar PDF ==============================================
+        function downloadDocPDF() {
+            window.location = "@Url.Action("DownloadPDF", "Home")";
+        }
+        function downloadDocXML() {
+            window.location = "@Url.Action("DownloadXML", "Home")";
+        }
+        function downloadXML() {
+            //alert("Descargar");
+            //Poner arroba
+            //window.location = "Url.Action("Download", "Home")";
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/VerificaSesion",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                beforeSend: function () {
+                    $('#IdLoading').html("Cargando...");
+                    $('#IdLoading').show();
+                }, success: function (data) {
+
+                    if (data.IsSuccess == true) {
+                        //alert("La sesion sigue activa");
+                        downloadDocXML();
+                    } else {
+                        $("#panelResultado").hide();
+                        MensajeConfirmacion("Error!", data.Message, "error");
+                    }
+
+
+                },
+                error: function (error) {
+
+                    console.log(error.responseText)
+                    MensajeConfirmacion("Error! asa", error.responseText, "error");
+                },
+                complete: function () {
+                    $('#IdLoading').html("Carga completo...");
+                    $('#IdLoading').hide("slow");
+                },
+            });
+            return false;
+        }
+        function downloadPDF() {
+            //alert("Descargar");
+            //Poner arroba
+            //window.location = "Url.Action("Download", "Home")";
+
+            $.ajax({
+                type: "POST",
+                url: "/Home/VerificaSesion",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                beforeSend: function () {
+                    $('#IdLoading').html("Cargando...");
+                    $('#IdLoading').show();
+                }, success: function (data) {
+
+                    if (data.IsSuccess == true) {
+                        //alert("La sesion sigue activa");
+                        downloadDocPDF();
+                    } else {
+                        $("#panelResultado").hide();
+                        MensajeConfirmacion("Error!", data.Message, "error");
+                    }
+
+
+                },
+                error: function (error) {
+
+                    console.log(error.responseText)
+                    MensajeConfirmacion("Error! asa", error.responseText, "error");
+                },
+                complete: function () {
+                    $('#IdLoading').html("Carga completo...");
+                    $('#IdLoading').hide("slow");
+                },
+            });
+            return false;
+        }
+        $(function () {
+            $('#btnConsultaLimpiar').click(function () {
+
+
+                return false;
+            });
+        });
+
+        //======================================================================================
+        function rucValido(ruc) {
+            //11 dígitos y empieza en 10,15,16,17 o 20
+            if (!(ruc >= 1e10 && ruc < 11e9
+                || ruc >= 15e9 && ruc < 18e9
+                || ruc >= 2e10 && ruc < 21e9))
+                return false;
+            for (var suma = -(ruc % 10 < 2), i = 0; i < 11; i++, ruc = ruc / 10 | 0)
+                suma += (ruc % 10) * (i % 7 + (i / 7 | 0) + 1);
+            return suma % 11 === 0;
+
+        }
+        $(function () {
+            $('#btnVerConsulta').click(function () {
+
+
+
+
+                var txtNumeroRuc = $("#txtNumeroRuc").val();
+                txtNumeroRuc = $.trim(txtNumeroRuc);
+                var txtCodigoComprobante = $("#IdTipoDocumento").val();
+                txtCodigoComprobante = $.trim(txtCodigoComprobante);
+                var txtNumeroSerie = $("#txtNumeroSerie").val();
+                txtNumeroSerie = $.trim(txtNumeroSerie);
+                var txtNumero = $("#txtNumero").val();
+                txtNumero = $.trim(txtNumero);
+                var txtFechaEmision = $("#txtFechaEmision").val();
+                txtFechaEmision = $.trim(txtFechaEmision);
+                var txtMonto = $("#txtMonto").val();
+                txtMonto = $.trim(txtMonto);
+
+
+                if (txtNumeroRuc == "") {
+                    MensajeConfirmacion("Error!", "Debe ingresar el Numero de RUC", "error");
+                    $("#txtNumeroRuc").focus();
+                    return false;
+                }
+                var esrucok = rucValido(txtNumeroRuc);
+
+                //if (esrucok == false) {
+                //    MensajeConfirmacion("Error!", "Debe ingresar RUC valido.", "error");
+                //    $("#txtNumeroRuc").focus();
+                //    return false;
+                //}
+                if (txtNumeroRuc.length != 11) {
+                    MensajeConfirmacion("Error!", "El RUC debe tener 11 digitos.", "error");
+                    $("#txtNumeroRuc").focus();
+                    return false;
+                }
+
+                if (txtCodigoComprobante == "") {
+                    MensajeConfirmacion("Error!", "Debe seleccionar el Comprobante.", "error");
+                    $("#txtCodigoComprobante").focus();
+                    return false;
+                }
+                if (txtNumeroSerie == "") {
+                    MensajeConfirmacion("Error!", "Debe ingresar el Numero de Serie.", "error");
+                    $("#txtNumeroSerie").focus();
+                    return false;
+                }
+                if (txtNumero == "") {
+                    MensajeConfirmacion("Error!", "Debe ingresar el Numero.", "error");
+                    $("#txtNumero").focus();
+                    return false;
+                }
+                if (txtFechaEmision == "") {
+                    MensajeConfirmacion("Error!", "Debe ingresar la Fecha de Emision.", "error");
+                    $("#txtFechaEmision").focus();
+                    return false;
+                }
+                if (txtFechaEmision.length > 10) {
+                    MensajeConfirmacion("Error!", "Debe ingresar una Fecha Valida.", "error");
+                    $("#txtFechaEmision").focus();
+                    return false;
+                }
+                //if ($("#txtMonto").val()== "") {
+                //    MensajeConfirmacion("Error!", "Debe ingresar el Monto.", "error");
+                //    return false;
+                //}
+
+                var Comprobante = {};
+                Comprobante.NumeroRuc = txtNumeroRuc; // FName as per name of Employee Class
+                Comprobante.CodigoComp = txtCodigoComprobante;
+                Comprobante.NumeroSerie = txtNumeroSerie;
+                Comprobante.Numero = txtNumero;
+                Comprobante.FechaEmision = txtFechaEmision;
+                Comprobante.Monto = txtMonto;
+
+                $("#panelResultado").hide();
+                //console.log();
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/ConsultaSunat",
+                    data: '{objSunat: ' + JSON.stringify(Comprobante) + '}',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    beforeSend: function () {
+                        //$('#IdLoading').html("Cargando...");
+                        //$('#IdLoading').show();
+                        //IniciaCarga();
+                    }, success: function (data) {
+                        //document.getElementById("idpdf").src = data.Message;//"http://localhost:50664/DTE/20518000951/20518000951-01-F001-1.PDF";
+
+
+                        if (data.IsSuccess == true) {
+                            $('#idpdf').attr('src', data.Result)
+                            $("#panelResultado").show();
+
+                        } else {
+                            $("#panelResultado").hide();
+                            MensajeConfirmacion("Error!", data.Message, "error");
+                        }
+
+
+                    },
+                    error: function (error) {
+
+                        //console.log(error.responseText)
+                        MensajeConfirmacion("Error! asa", error.responseText, "error");
+                    },
+                    complete: function () {
+                        //$('#IdLoading').html("Carga completo...");
+                        //$('#IdLoading').hide("slow");
+                        //TerminarCarga();
+                    },
+                });
+                return false;
+            });
+        });
+
+        //======================================================================================
+        $(function () {
+            $('#btnConsultaLimpiar').click(function () {
+
+                $("#txtNumeroRuc").val("");
+                $("#txtCodigoComprobante").val("");
+                $("#txtNumeroSerie").val("");
+                $("#txtNumero").val("");
+                $("#txtFechaEmision").val("");
+                $("#txtMonto").val("");
+                $("#panelResultado").hide("slow");
+                return false;
+            });
+        });
+
+
+
+    </script>
+
+}
