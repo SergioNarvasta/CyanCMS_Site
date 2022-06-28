@@ -144,16 +144,16 @@ Where YEAR(FechaInsSucamec)   <= 1900
 
 --UPDATE CEX_Importacion
 SET  FechaResSucamec  = Case When YEAR(FechaResSucamec) <= 1900 Then NULL Else FechaResSucamec  End
-Where YEAR(FechaContrato)   <= 1900
+Where YEAR(FechaResSucamec)   <= 1900
 
 --UPDATE CEX_Importacion
 SET   OCFechaApr       = Case When YEAR(OCFechaApr)      <= 1900 Then NULL Else OCFechaApr End
-Where YEAR(FechaContrato)   <= 1900
+Where YEAR(OCFechaApr)   <= 1900
 
 --UPDATE CEX_Importacion
 SET    OCFechaIng       = Case When YEAR(OCFechaIng)      <= 1900 Then NULL Else OCFechaIng End
-Where YEAR(FechaContrato)   <= 1900
+Where YEAR(OCFechaIng)   <= 1900
 
 --UPDATE CEX_Importacion
 SET    OCFechaPro       = Case When YEAR(OCFechaPro)      <= 1900 Then NULL Else OCFechaPro End
-Where YEAR(FechaContrato)   <= 1900
+Where YEAR(OCFechaPro)   <= 1900
