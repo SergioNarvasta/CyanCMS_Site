@@ -16,10 +16,7 @@ namespace HDLIbreriaSUNAT
     public class HDValidarCPESunat:
        System.EnterpriseServices.ServicedComponent
     {
-        /// <summary>
         /// VALIDEZ DE COMPROBANTES ELÉCTRONICOS
-        /// </summary>
-        /// <returns></returns>
         public string ps_verificaHD = "HD-20220430";
 
         public string GeneraTokenSunat()

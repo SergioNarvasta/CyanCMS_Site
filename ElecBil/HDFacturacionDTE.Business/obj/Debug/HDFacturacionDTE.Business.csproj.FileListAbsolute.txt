@@ -79,3 +79,24 @@ G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Business\obj\Debug\HDFacturacionD
 G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.csproj.CopyComplete
 G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.dll
 G:\HD\FE\Portal_HDFacturacion\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Business.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Business.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Data.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Entity.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Configuracion.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.IData.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Common.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Base.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Data.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Entity.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Configuracion.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.IData.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.IData.dll.config
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Common.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\bin\Debug\HDFacturacionDTE.Base.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.csproj.AssemblyReference.cache
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.csproj.CoreCompileInputs.cache
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.csproj.CopyComplete
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Business\obj\Debug\HDFacturacionDTE.Business.pdb

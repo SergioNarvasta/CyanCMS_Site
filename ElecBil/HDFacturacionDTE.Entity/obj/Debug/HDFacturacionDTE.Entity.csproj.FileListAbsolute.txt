@@ -14,3 +14,9 @@ W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Entity\obj\Debug\HDFactur
 W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Entity\obj\Debug\HDFacturacionDTE.Entity.csproj.CoreCompileInputs.cache
 W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Entity\obj\Debug\HDFacturacionDTE.Entity.dll
 W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.Entity\obj\Debug\HDFacturacionDTE.Entity.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Entity\bin\Debug\HDFacturacionDTE.Entity.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Entity\bin\Debug\HDFacturacionDTE.Entity.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Entity\obj\Debug\HDFacturacionDTE.Entity.csproj.AssemblyReference.cache
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Entity\obj\Debug\HDFacturacionDTE.Entity.csproj.CoreCompileInputs.cache
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Entity\obj\Debug\HDFacturacionDTE.Entity.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.Entity\obj\Debug\HDFacturacionDTE.Entity.pdb

@@ -33,3 +33,15 @@ W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.IData\obj\Debug\HDFactura
 W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.csproj.CopyComplete
 W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.dll
 W:\Proyectos NET\Portal_HDFacturacion\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\bin\Debug\HDFacturacionDTE.IData.dll.config
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\bin\Debug\HDFacturacionDTE.IData.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\bin\Debug\HDFacturacionDTE.IData.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\bin\Debug\HDFacturacionDTE.Common.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\bin\Debug\HDFacturacionDTE.Entity.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\bin\Debug\HDFacturacionDTE.Common.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\bin\Debug\HDFacturacionDTE.Entity.pdb
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.csproj.AssemblyReference.cache
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.csproj.CoreCompileInputs.cache
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.csproj.CopyComplete
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.dll
+F:\3. PROYECTOS\Electronic Biling\ElecBil\HDFacturacionDTE.IData\obj\Debug\HDFacturacionDTE.IData.pdb
