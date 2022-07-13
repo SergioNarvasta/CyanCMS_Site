@@ -1,11 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Coworking.Api.DataAccess",
-    "\\Coworking.Api.DataAccess.Contracts",
-    "\\Coworking.Api.DataAccess\\obj",
-    "\\Coworkinr"
+    "\\WebAplicacion",
+    "\\WebAplicacion\\ConsultaSunat",
+    "\\WebAplicacion\\HD_CONFORMIDAD_WS",
+    "\\WebAplicacion\\ws_LibreriaConformidad\\bin",
+    "\\WebAplicacion\\ws_LibreriaConformidad\\bin\\Debug",
+    "\\WebAplicacion\\ws_LibreriaConformidad\\bin\\Release",
+    "\\WebAplicacion\\ws_LibreriaConformidad\\obj\\Debug",
+    "\\WebAplicacion\\ws_LibreriaConformidad\\Properties",
+    "\\WebAplicacion\\ws_LibreriaPostConformidad"
   ],
-  "SelectedNode": "\\Coworking.Api.DataAccess\\CoworkingDBContext.cs",
+  "SelectedNode": "\\WebAplicacion\\ConsultaSunat\\HDConsultaSunat.cs",
   "PreviewInSolutionExplorer": false
 }

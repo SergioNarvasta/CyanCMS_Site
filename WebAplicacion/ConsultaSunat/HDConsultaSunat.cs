@@ -15,6 +15,7 @@ namespace ConsultaSunat
  
     public class HDConsultaSunat
     {        //PRUEBAS CON EQUILIBRA
+
         public string GeneraToken()
         {
             var ps_grant_type = "password";
@@ -85,7 +86,6 @@ namespace ConsultaSunat
         public string ConsultaConformidadPago(string pu_FEC_INI, string pu_FEC_FIN, string pu_COD_ESTADO,
                                     string pu_COD_MONEDA, string token)
         {
-
             var client = new RestClient("https://api-cpe.sunat.gob.pe/v1/contribuyente/controlcpe/comprobantes?indFechaFiltro=FE&codCpe=01&fecInicio=" + pu_FEC_INI + "&fecFin=" + pu_FEC_FIN + "&numPag=1&numRegPag=50&codEstado=" + pu_COD_ESTADO + "&codTipTransaccion=&codMoneda=" + pu_COD_MONEDA + "&numSerie=&numCpe=&numRuc=&codTipoDocAdqui=&numDocAdqui=&indContribuyente=C");
             client.Timeout = -1;
             var request = new RestRequest(Method.GET);
@@ -126,7 +126,6 @@ namespace ConsultaSunat
         }
 
     }
-
 
     public class Comprobante
     {
