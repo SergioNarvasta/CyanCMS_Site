@@ -24,10 +24,8 @@ namespace ConsultaSunat
             var ps_client_secret = "caWpscwQt8zFaK5t1kgftg==";
             var ps_username = "20601647649EFACT001";
             var ps_password = "factu2018";
-
             var request = (HttpWebRequest)WebRequest.Create("https://api-seguridad.sunat.gob.pe/v1/clientessol/" + ps_client_id + "/oauth2/token/");
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.SystemDefault | SecurityProtocolType.Tls | SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11;
-
             var postData = "grant_type=" + ps_grant_type + "&scope=" + ps_scope + "&client_id=" + ps_client_id + "&client_secret=" + ps_client_secret + "&username=" + ps_username + "&password=" + ps_password;
             var data = Encoding.ASCII.GetBytes(postData);
             request.Method = "POST";
