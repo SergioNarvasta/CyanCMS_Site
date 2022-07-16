@@ -80,20 +80,17 @@ namespace ConsultaSunat
 
         }
 
-        public string ConsultaConformidadPago(string pu_FEC_INI, string pu_FEC_FIN, string pu_COD_ESTADO,
-                                    string pu_COD_MONEDA, string token)
+        public string ConsultaConformidadPago(string pu_FEC_INI, string pu_FEC_FIN, string pu_COD_ESTADO, string pu_COD_MONEDA, string token)
         {
             var client = new RestClient("https://api-cpe.sunat.gob.pe/v1/contribuyente/controlcpe/comprobantes?indFechaFiltro=FE&codCpe=01&fecInicio=" + pu_FEC_INI + "&fecFin=" + pu_FEC_FIN + "&numPag=1&numRegPag=50&codEstado=" + pu_COD_ESTADO + "&codTipTransaccion=&codMoneda=" + pu_COD_MONEDA + "&numSerie=&numCpe=&numRuc=&codTipoDocAdqui=&numDocAdqui=&indContribuyente=C");
             client.Timeout = -1;
             var request = new RestRequest(Method.GET);
             request.AddHeader("Authorization", "Bearer " + token);
             IRestResponse response = client.Execute(request);
-
             string resp = "";
-
             return "oki";
          }
-        public string EnviaConformidad(string token)
+        public string EnviaConformidad(string token) 
         {
             var archivo = "20601647649-PND-20211221-99.zip";
             var valHash = "77bea2c141a8971c09e013ddf3c28199e7d3729c8fc4877ba4d2b0800087c2fa";
@@ -118,7 +115,6 @@ namespace ConsultaSunat
             for (int i = 0; i < stream.Length; i++) sb.AppendFormat("{0:x2}", stream[i]);
             return sb.ToString();
         }
-
     }
     public class Comprobante
     {
