@@ -20,7 +20,6 @@ namespace ConsolaDesarrollo
             var client_secret = "Erzio/UwDohK6bwaxSMP8Q==";
             var username = "20601464927HDSOFT21";
             var password = "Sunat@2021";
-
             var request = (HttpWebRequest)WebRequest.Create("https://api-seguridad.sunat.gob.pe/v1/clientessol/" + client_id + "/oauth2/token/");
             //System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.SystemDefault | SecurityProtocolType.Tls | SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11;
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11;
@@ -54,7 +53,6 @@ namespace ConsolaDesarrollo
                         }
                     }
                 }
-
                 var token = new JavaScriptSerializer().Deserialize<dynamic>(responseString);
                 resp = token["access_token"];
 
