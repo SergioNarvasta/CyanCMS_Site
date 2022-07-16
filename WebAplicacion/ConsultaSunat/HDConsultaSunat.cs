@@ -54,7 +54,6 @@ namespace ConsultaSunat
                         }
                     }
                 }
-
                 var token = new JavaScriptSerializer().Deserialize<dynamic>(responseString);
                 resp = token["access_token"];
 
@@ -77,7 +76,6 @@ namespace ConsultaSunat
             }
 
             return resp;
-
         }
 
         public string ConsultaConformidadPago(string pu_FEC_INI, string pu_FEC_FIN, string pu_COD_ESTADO, string pu_COD_MONEDA, string token)
@@ -103,7 +101,7 @@ namespace ConsultaSunat
             return "ok";
         }
     }
-    public class Encrypt
+        public class Encrypt
     {
         public static string GetSHA256(string txt)
         {
