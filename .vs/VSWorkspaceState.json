@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ASP.NET",
+    "\\ASP.NET\\EjemploSIST",
+    "\\ASP.NET\\EjemploSIST\\EjemploSIST",
+    "\\ASP.NET\\EjemploSIST\\EjemploSIST\\Data",
+    "\\ASP.NET\\EjemploSIST\\EjemploSIST\\Models",
+    "\\ASP.NET\\EjemploSIST\\EjemploSIST\\Models\\Entidades",
     "\\WebAplicacion",
-    "\\WebAplicacion\\ConsultaSunat",
     "\\WebAplicacion\\HD_CONFORMIDAD_WS",
-    "\\WebAplicacion\\ws_LibreriaConformidad\\bin",
-    "\\WebAplicacion\\ws_LibreriaConformidad\\bin\\Debug",
-    "\\WebAplicacion\\ws_LibreriaConformidad\\bin\\Release",
-    "\\WebAplicacion\\ws_LibreriaConformidad\\obj\\Debug",
-    "\\WebAplicacion\\ws_LibreriaConformidad\\Properties",
     "\\WebAplicacion\\ws_LibreriaPostConformidad"
   ],
-  "SelectedNode": "\\WebAplicacion\\ConsultaSunat\\HDConsultaSunat.cs",
+  "SelectedNode": "\\ASP.NET\\EjemploSIST\\EjemploSIST\\Models\\ManageViewModels",
   "PreviewInSolutionExplorer": false
 }
