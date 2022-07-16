@@ -15,7 +15,6 @@ namespace ConsultaSunat
  
     public class HDConsultaSunat
     {        //PRUEBAS CON EQUILIBRA
-
         public string GeneraToken()
         {
             var ps_grant_type = "password";
@@ -47,7 +46,6 @@ namespace ConsultaSunat
                         {
                             return resp;
                         }
-
                         using (StreamReader objReader = new StreamReader(strReader))
                         {
                             responseString = objReader.ReadToEnd();
