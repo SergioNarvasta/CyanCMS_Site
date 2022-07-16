@@ -109,7 +109,6 @@ namespace ConsultaSunat
         Console.WriteLine(response.Content);
             return "ok";
         }
-
     }
 
     public class Encrypt

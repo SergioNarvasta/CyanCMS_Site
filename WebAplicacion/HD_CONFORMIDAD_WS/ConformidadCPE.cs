@@ -99,10 +99,8 @@ namespace HD_CONFORMIDAD_WS
             StringBuilder cadenaTot = new StringBuilder();
             StringBuilder cadena = new StringBuilder();
 
-
             try
-            {
-
+            { 
                 do
                 {
                     cadena.Clear();
