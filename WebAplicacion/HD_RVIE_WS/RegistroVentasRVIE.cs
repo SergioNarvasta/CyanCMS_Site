@@ -18,13 +18,11 @@ namespace HD_RVIE_WS
             var scope = "https://api.sunat.gob.pe";
             var request = (HttpWebRequest)WebRequest.Create("https://api-seguridad.sunat.gob.pe/v1/clientessol/" + this.Client_id + "/oauth2/token/");
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11;
-
             var postData = "grant_type=" + grant_type + "&scope=" + scope + "&client_id=" + this.Client_id + "&client_secret=" + this.Client_secret + "&username=" + this.Username + "&password=" + this.Password;
             var data = Encoding.ASCII.GetBytes(postData);
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
             request.ContentLength = data.Length;
-
             string resp = "";
             try
             {
@@ -75,12 +73,8 @@ namespace HD_RVIE_WS
             return resp;
 
         }
-
-
         public string Ws07_ConsultaResumenCPE(int Ps_Periodo, int Ps_TipoResumen, int Ps_TipoArchivo )
         {
-
-         
             //var client = new RestClient("https://api-cpe.sunat.gob.pe/v1/contribuyente/controlcpe/comprobantes?indFechaFiltro=FE&codCpe=01&fecInicio=" + FecIniPND + "&fecFin=" + FecFinPND + "&numPag=1&numRegPag=50&codestado="+ cod_estado + "&codTipTransaccion=&codMoneda=" + codMonedaPND + "&numSerie=&numCpe=&numRuc=&codTipoDocAdqui=&numDocAdqui=&indContribuyente="+ ind_contribuyente);
             var client = new RestClient("https://api-cpe.sunat.gob.pe/v1/contribuyente/migeigv/libros/ventas/resumen/"+ Ps_Periodo + "/"+ Ps_TipoResumen + "/"+Ps_TipoArchivo+"/exporta");
             var request = new RestRequest(Method.GET);
