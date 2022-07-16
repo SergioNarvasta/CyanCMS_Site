@@ -31,7 +31,6 @@ namespace ConsultaSunat
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
             request.ContentLength = data.Length;
-
             string resp = "";
             try
             {
@@ -94,7 +93,6 @@ namespace ConsultaSunat
 
             return "oki";
          }
-
         public string EnviaConformidad(string token)
         {
             var archivo = "20601647649-PND-20211221-99.zip";
@@ -108,7 +106,6 @@ namespace ConsultaSunat
             return "ok";
         }
     }
-
     public class Encrypt
     {
         public static string GetSHA256(string txt)
@@ -123,7 +120,6 @@ namespace ConsultaSunat
         }
 
     }
-
     public class Comprobante
     {
         public string FEC_INI { get; set; }
