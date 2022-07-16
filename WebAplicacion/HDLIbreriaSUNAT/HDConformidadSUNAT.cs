@@ -21,10 +21,8 @@ namespace HDLIbreriaSUNAT
             var client_secret = "Erzio/UwDohK6bwaxSMP8Q==";
             var username = "20601464927HDSOFT21";
             var password = "Sunat@2021";
-
             var request = (HttpWebRequest)WebRequest.Create("https://api-seguridad.sunat.gob.pe/v1/clientessol/" + client_id + "/oauth2/token/");
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.SystemDefault | SecurityProtocolType.Tls | SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11;
-
             var postData = "grant_type=" + grant_type + "&scope=" + scope + "&client_id=" + client_id + "&client_secret=" + client_secret + "&username=" + username + "&password=" + password;
             var data = Encoding.ASCII.GetBytes(postData);
             request.Method = "POST";
