@@ -85,13 +85,8 @@ namespace HD_RVIE_WS
 
             try
             {
-
                     cadena.Clear();
-
                     cadena.Append( response.Content);
-
-                 
-
             }
             catch (ArgumentException arg)
             {
@@ -129,7 +124,6 @@ namespace HD_RVIE_WS
         {
              
             int n_numpag = 1;
-
 
             //var client = new RestClient("https://api-cpe.sunat.gob.pe/v1/contribuyente/controlcpe/comprobantes?indFechaFiltro=FE&codCpe=01&fecInicio=" + FecIni + "&fecFin=" + FecFin + "&numPag=" + cnumpag + "&numRegPag=100&codEstado=" + cod_estado + "&codTipTransaccion=&codMoneda=" + codMonedaPND + "&numSerie=&numCpe=" + numCpe + "&numRuc=" + numRuc + "&codTipoDocAdqui=&numDocAdqui=&indContribuyente=" + ind_contribuyente);
             var client = new RestClient("https://api-cpe.sunat.gob.pe/v1/contribuyente/migeigv/libros/ventas/propuesta/" + ps_periodo + "/comprobantes?codTipoOpe=" + ps_codTipoOpe + "&mtoDesde=" + ps_mtoDesde + "&mtoHasta=" + ps_mtoHasta + "&fecEmisionIni=" + ps_fecEmisionIni + "&fecEmisionFin=" + ps_fecEmisionFin + "&numDocAdquiriente=" + ps_numDocAdquiriente + "&codCar=" + ps_codCar + "&codTipoCDP=" + ps_codTipoCDP + "&codInconsistencia=" + ps_codInconsistencia + "&page=" + n_numpag + "&perPage=100");
