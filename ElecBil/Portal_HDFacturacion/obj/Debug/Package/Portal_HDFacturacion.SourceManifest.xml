@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <contentPath path="D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Package\PackageTmp" />
-  <setAcl path="D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="D:\HelpDesk_SAC\Portal_HDFacturacion\Portal_HDFacturacion\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
-</sitemanifest>
